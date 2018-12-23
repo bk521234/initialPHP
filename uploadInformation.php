@@ -39,6 +39,12 @@
          </ul>
 			
       </form>
-      
+      <p>Remote address: <?php echo $_SERVER['REMOTE_ADDR']?></p>
+      <p>HTTPS ?: <?php echo $_SERVER['HTTPS']?></p>
+      <p>SCRIPT_FILENAME ?: <?php echo $_SERVER['SCRIPT_FILENAME']?></p>
+      <p>PATH_TRANSLATED ?: <?php echo $_SERVER['PATH_TRANSLATED']?></p>
+      <p>SCRIPT_NAME ?: <?php echo $_SERVER['SCRIPT_NAME']?></p>
+      <p>REQUEST_URI ?: <?php echo $_SERVER['REQUEST_URI']?></p>
+
    </body>
 </html>
